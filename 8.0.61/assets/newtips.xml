@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysmsg type="newtips">
+    <newtips>
+        <control>
+            <tips_id>90000001</tips_id>
+            <tips_version />
+            <unique_id>90000001_4433334227</unique_id>
+            <priority />
+            <tips_type>1</tips_type>
+            <begin_time>1654835527</begin_time>
+            <overdue_time>259200</overdue_time>
+            <disappear_time />
+            <op>0</op>
+            <regcountry>cn,hk</regcountry>
+            <lang>en,ja,zh_CN</lang>
+            <ios_min_clientversion>385879073</ios_min_clientversion>
+            <ios_max_clientversion>536870911</ios_max_clientversion>
+            <android_min_clientversion>671095040</android_min_clientversion>
+            <android_max_clientversion>805306367</android_max_clientversion>
+            <tips_showInfo>
+                <show_type></show_type>
+                <title><![CDATA[]]></title>
+                <icon_url><![CDATA[]]></icon_url>
+                <path><![CDATA[]]></path>
+            </tips_showInfo>
+        </control>
+        <tips_showInfo_list>
+            <size>2</size>
+            <tips_showInfo>
+                <show_type>0</show_type>
+                <title />
+                <icon_url />
+                <path><![CDATA[setting]]></path>
+                <is_end />
+            </tips_showInfo>
+            <tips_showInfo>
+                <show_type>2</show_type>
+                <title />
+                <icon_url />
+                <path><![CDATA[plugin]]></path>
+                <is_end />
+            </tips_showInfo>
+            <!--
+            <tips_showInfo>
+                <show_type>2</show_type>
+                <title><![CDATA[更新了《隐私保护指引》]]></title>
+                <icon_url />
+                <path><![CDATA[privacyUpdate]]></path>
+                <is_end />
+            </tips_showInfo>
+            -->
+        </tips_showInfo_list>
+        <ext_info><![CDATA[https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/privacy?lang=zh_CN&cc=CN]]></ext_info>
+    </newtips>
+</sysmsg>

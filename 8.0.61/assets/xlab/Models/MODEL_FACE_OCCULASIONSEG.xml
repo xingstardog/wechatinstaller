@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model>
+    <SubType>2</SubType>
+    <Key>MODEL_FACE_OCCULASIONSEG</Key>
+    <CompatVersion>4</CompatVersion>
+    <Name>FaceOcculasionSegV1.4.0.26.xnet</Name>
+    <Sha1>96b5f3707b8551bce23b9a010352f4fef594073d</Sha1>
+</Model>

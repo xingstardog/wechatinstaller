@@ -1,0 +1,16 @@
+{
+    "type": "RosyLutFilter",
+    "id": "滤镜",
+    "name_en": "wechatgreen",
+    "name_cn": "wechatgreen",
+    "thumbnail": "thumbnail.jpg",
+    "version": 3.0,
+    "params": {
+        "LutStyle": 0,
+        "DefaultAlpha": 1.0,
+        "ChannelPrecision": 64,
+        "PicParams": {
+            "Path": "WechatRosy.png"
+        }
+    }
+}

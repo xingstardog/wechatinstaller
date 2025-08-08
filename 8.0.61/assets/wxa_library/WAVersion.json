@@ -1,0 +1,117 @@
+{
+  "updateTime": "2024.11.24 21:13:21",
+  "version": "3.6.6",
+  "features": {
+    "pruneWxConfigByPage": true,
+    "injectGameContextPlugin": true,
+    "lazyCodeLoading2": true,
+    "lazyCodeLoadingForDevTool": true,
+    "injectAppSeparatedPlugin": true,
+    "nativeTrans": true,
+    "gameLive": true,
+    "skyline": true,
+    "supportInvokeWithAppId": true,
+    "supportAudits": true,
+    "wkFeatureVersion": 5,
+    "delayedServiceCodeCache": true,
+    "gameLiveInvite": true,
+    "globalConsole": true,
+    "earlyDispatchSubPkgReady": true,
+    "glassEasel": 1,
+    "supportListenTaskStateChange": true,
+    "supportListenNewPerformanceMetric": true,
+    "collectInvokeCost": true,
+    "externalDebug": true,
+    "expt": [
+      "clicfg_appbrand_ios_native_socket_wcwss_new",
+      "clicfg_appbrand_ios_native_readfile",
+      "clicfg_appbrand_native_readfile",
+      "clicfg_canvas_use_magic_brush",
+      "clicfg_appbrand_report_trace_event",
+      "clicfg_appbrand_skyline_text_style",
+      "clicfg_appbrand_ios_allow_worker_binding_message",
+      "clicfg_appbrand_ios_arkit2wevision_usevertialplane",
+      "clicfg_appbrand_ios_use_jsapi_args_binding",
+      "clicfg_appbrand_webview_slow_frame",
+      "clicfg_appbrand_webview_native_intersection_observer",
+      "clicfg_appbrand_ios_control_close_condom_white",
+      "clicfg_appbrand_android_control_close_condom_white",
+      "clicfg_appbrand_android_use_game_delay_codecache",
+      "clicfg_appbrand_ios_game_shangcheng_kefu",
+      "clicfg_appbrand_ios_force_enable_aiad",
+      "clicfg_appbrand_android_force_enable_aiad",
+      "clicfg_handle_reqresp_in_worker_android",
+      "clicfg_appbrand_enable_batch_load_sub_pkg",
+      "clicfg_appbrand_ios_enable_aiad_debug_button",
+      "clicfg_appbrand_android_enable_aiad_debug_button",
+      "clicfg_appbrand_ios_enable_aiad_tag",
+      "clicfg_appbrand_android_enable_aiad_tag",
+      "clicfg_appbrand_ios_force_use_audio_dynamic_new",
+      "clicfg_appbrand_android_force_use_audio_dynamic_new",
+      "clicfg_appbrand_ios_operatewxdata_quic_group_control",
+      "clicfg_appbrand_ios_operatewxdata_quic_grayrelease_v1",
+      "clicfg_appbrand_android_operatewxdata_quic_group_control",
+      "clicfg_appbrand_android_operatewxdata_quic_grayrelease_v1",
+      "clicfg_wxa_report_ssid",
+      "clicfg_miniprogram_global_translate_android",
+      "clicfg_miniprogram_global_translate_ios",
+      "clicfg_appbrand_android_ad_operatewxdata_batch",
+      "clicfg_appbrand_ios_ad_operatewxdata_batch",
+      "clicfg_appbrand_ios_operatewxdata_batch",
+      "clicfg_appbrand_android_operatewxdata_batch",
+      "clicfg_appbrand_ios_enable_jsopdata_mock",
+      "clicfg_appbrand_ios_android_aiad_interstitial_cache_time",
+      "clicfg_appbrand_android_jsapi_nocallback",
+      "clicfg_appbrand_ios_operatewxdata_priority",
+      "clicfg_appbrand_android_operatewxdata_priority",
+      "clicfg_appbrand_ios_operatewxdata_priority_group_control",
+      "clicfg_appbrand_android_operatewxdata_priority_group_control"
+    ],
+    "exptNeedParams": [
+      "clicfg_miniprogram_adreport_use_kv",
+      "clicfg_miniprogram_open_admb_in_motivating_v3",
+      "clicfg_miniprogram_open_admb2_in_motivating"
+    ],
+    "snapshotConfig": {
+      "game:main": [
+        "WAGame.js"
+      ],
+      "game:sub": [
+        "WAGameSubContext.js"
+      ]
+    },
+    "mayHaveSnapshot": [
+      "WAServiceMainContext.js",
+      "WASubContext.js",
+      "WARenderContext.js",
+      "WAGame.js",
+      "WAGameSubContext.js"
+    ],
+    "pcSnapshotConfig": {
+      "minigame": {
+        "iframeDomain": {
+          "mainContext": [
+            "WAGame.js"
+          ],
+          "gameContext": [
+            "WAGameSubContext.js"
+          ]
+        },
+        "workerDomain": {}
+      },
+      "miniprogram": {
+        "iframeDomain": {},
+        "workerDomain": {
+          "main_context": [
+            "WAServiceMainContext.js"
+          ],
+          "sub_context": [
+            "WASubContext.js"
+          ]
+        }
+      }
+    },
+    "privacyApiVersion": 3
+  },
+  "debugOptions": {}
+}

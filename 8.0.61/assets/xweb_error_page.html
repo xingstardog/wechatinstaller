@@ -1,0 +1,37 @@
+<html>
+<head>
+  <script type="text/javascript">
+    function reload(){
+      window.location.href = 'placeholder_failingUrl';
+    }
+
+  </script>
+  <title>无法打开页面</title>
+  <script>
+    var html = document.documentElement;
+    var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+    function setHtmlFontSize() {
+      var cliWidth = html.clientWidth;
+      html.style.fontSize = 100 * (cliWidth / 720) + 'px';
+    }
+    window.addEventListener(resizeEvt, setHtmlFontSize, false);
+
+  </script>
+  <style>.main-content { text-align:center; margin-top:10rem; margin-bottom:10rem}</style>
+  <style>.main-message { color:rgba(0, 0, 0, 0.3); font-size:48px;}</style>
+  <style>.error-code { color:rgba(0, 0, 0, 0.3); font-size:32px;}</style>
+  <style>.button-reload { color:rgba(0, 0, 0, 0.3); font-size:40px;}</style>
+</head>
+<body bgcolor="#F2F2F2" onclick="reload()">
+<br/>
+<p></p>
+<div class="main-content">
+  <img src="html/img/webview_404_refresh_icon.svg"/>
+  <div>
+    <br/><div><span class="main-message">无法打开页面</span></div>
+    <br/><div><span class="error-code">错误信息(placeholder_errorCode,placeholder_description)</span></div>
+    <br/><div><span class="button-reload">轻触屏幕重新加载</span></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModelConfig>
+    <ConfigVersion>79</ConfigVersion>
+    <SDKVersion>2013800</SDKVersion>
+    <ModelList>
+    <Model>
+    <SubType>0</SubType>
+    <Key>MODEL_FACE_ALIGNMENT</Key>
+    <CompatVersion>13</CompatVersion>
+    <Name>FaceAlignmentV4.10.0.26_arm.pbin</Name>
+    <Sha1>e8bee8088759db0991799534cf25573964085086</Sha1>
+</Model><Model>
+    <SubType>1</SubType>
+    <Key>MODEL_FACE_DETECT</Key>
+    <CompatVersion>5</CompatVersion>
+    <Name>FaceDetectV4.3.0.26_arm.pbin</Name>
+    <Sha1>5f2775c45339674cc0665b8e38ecd55807811410</Sha1>
+</Model><Model>
+    <SubType>2</SubType>
+    <Key>MODEL_FACE_OCCULASIONSEG</Key>
+    <CompatVersion>4</CompatVersion>
+    <Name>FaceOcculasionSegV1.4.0.26.xnet</Name>
+    <Sha1>96b5f3707b8551bce23b9a010352f4fef594073d</Sha1>
+</Model><Model>
+    <SubType>7</SubType>
+    <Key>MODEL_PORTRAITSEGMENT</Key>
+    <CompatVersion>2</CompatVersion>
+    <Name>SegmentationPortraitV2.0.8.26.xnet</Name>
+    <Sha1>05cfe4566e84dfecdd837e698d9ae7dca4fa5f72</Sha1>
+</Model><Model>
+    <SubType>8</SubType>
+    <Key>MODEL_FACE3D_XBIN</Key>
+    <CompatVersion>4</CompatVersion>
+    <Name>Face3DMMV1.0.4.xbin</Name>
+    <Sha1>3d68a3d87cf74126b6d93ab240400ca215b210d4</Sha1>
+</Model><Model>
+    <SubType>27</SubType>
+    <Key>MODEL_LUA_SCRIPT</Key>
+    <CompatVersion>3</CompatVersion>
+    <Name>LuaPredScriptV1.0.0.2.zip</Name>
+    <Sha1>22f053e73e8e199644f398510861cefafd4572ba</Sha1>
+</Model>
+    </ModelList>
+</ModelConfig>

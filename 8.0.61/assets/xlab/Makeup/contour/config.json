@@ -1,0 +1,19 @@
+{
+    "name_cn": "\u4fee\u5bb9\u7f8e\u989c\u539f\u5b50\u80fd\u529b", 
+    "thumbnail": "thumbnail.jpg", 
+    "version": 1.0, 
+    "params": {
+        "alpha": 1.0, 
+        "path": "mask.png", 
+        "pos": [
+            0.26367188, 
+            0.26367188, 
+            0.48828125, 
+            0.52734375
+        ], 
+        "face_model": 0
+    }, 
+    "name_en": "highlight_shadow_beauty", 
+    "type": "FaceContour", 
+    "id": "400002"
+}

@@ -1,0 +1,11 @@
+{
+    "type": "SharpenFilter",
+    "id": "清晰",
+    "name_en": "sharpen",
+    "name_cn": "sharpen",
+    "thumbnail": "thumbnail.jpg",
+    "version": 3.0,
+    "params": {
+        "alpha": 1.0
+    }
+}

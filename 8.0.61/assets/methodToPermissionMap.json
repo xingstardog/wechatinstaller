@@ -1,0 +1,27 @@
+{
+  "location": [
+    "requestLocationUpdates",
+    "requestGeofence",
+    "getLastLocation",
+    "requestLocationUpdates",
+    "requestGeofence",
+    "getLastLocation",
+    "getConfiguredNetworks",
+    "getPrivilegedConfiguredNetworks",
+    "getConfiguredNetworks",
+    "addNetworkSuggestions",
+    "getMatchingScanResults",
+    "startLocalOnlyHotspot",
+    "registerSuggestionConnectionStatusListener",
+    "connect",
+    "getCellLocation",
+    "registerLocationListener",
+    "registerGnssStatusCallback"
+  ],
+  "storage": ["queryMedia","exportToPublicDownloadDirImpl","exportImageImpl","exportVideoImpl"],
+  "contact": ["queryContact"],
+  "camera": ["open","openCamera","openSysCamera"],
+  "microphone": ["startRecording","startLocalAudio"],
+  "healthy": ["sport"],
+  "overlay": ["addView"]
+}
